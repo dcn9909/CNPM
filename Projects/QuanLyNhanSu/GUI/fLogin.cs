@@ -48,15 +48,17 @@ namespace QuanLyNhanSy.GUI
             {
                 if (AccountBUS.Instance.Login(userName, passWord))
                 {
-                    this.Hide();
+                    
                     if (ckbRememberMe.Checked)
                     {
                         Settings.Default.passWord = txbPassWord.Text;
                         Settings.Default.userName = txbUserName.Text;                    
                     }
                     Settings.Default.Save();
+                    this.Hide();
                     fMain f = new fMain();
                     f.ShowDialog();
+                    this.Show();
                 }else
                 {
                     MessageBox.Show("Tên đăng nhập hoặc mật khẩu chính xác!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -80,6 +82,14 @@ namespace QuanLyNhanSy.GUI
             }
             Settings.Default.rememberMe = ckbRememberMe.Checked;
             Settings.Default.Save();
+        }
+
+        private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình?", "Thông báo", MessageBoxButtons.OKCancel,MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
