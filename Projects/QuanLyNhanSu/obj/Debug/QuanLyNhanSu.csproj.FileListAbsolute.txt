@@ -1,0 +1,12 @@
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\bin\Debug\MetroFramework.dll
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\bin\Debug\MetroFramework.Fonts.dll
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\bin\Debug\MetroFramework.Design.dll
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\obj\Debug\QuanLyNhanSy.GUI.fLogin.resources
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+D:\GIT\GITHUB\CNPM\Projects\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
